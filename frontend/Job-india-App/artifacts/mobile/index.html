@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job India - Find Your Dream Job</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <header class="glass-header">
+        <div class="logo">
+            <i class="fa-solid fa-briefcase"></i> Job<span>India</span>
+        </div>
+        <nav>
+            <a href="#" class="active">Jobs</a>
+            <a href="#">Companies</a>
+            <a href="#">Premium</a>
+        </nav>
+        <div class="user-actions">
+            <button class="btn-icon"><i class="fa-regular fa-bell"></i></button>
+            <button class="btn-primary">Sign In</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1 class="animate-fade-up">Find Your <span class="text-gradient">Dream Job</span></h1>
+            <p class="subtitle animate-fade-up delay-1">Discover thousands of high-paying opportunities across India.</p>
+            
+            <div class="search-bar glass-panel animate-fade-up delay-2">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="searchInput" placeholder="Search for jobs, skills, or companies...">
+                <button class="btn-search" id="searchBtn">Search</button>
+            </div>
+        </section>
+
+        <section class="famous-jobs-section animate-fade-up delay-3">
+            <div class="section-header">
+                <h2>Popular Careers</h2>
+                <p>High-status paths in India</p>
+            </div>
+            <div class="famous-jobs-container" id="famousJobsContainer">
+                <!-- Dynamically populated by JS -->
+            </div>
+        </section>
+
+        <section class="latest-jobs-section animate-fade-up delay-4">
+            <div class="section-header">
+                <h2>Latest Opportunities</h2>
+                <p>Freshly aggregated for you</p>
+            </div>
+            <div class="jobs-grid" id="jobsGrid">
+                <!-- Dynamically populated by JS -->
+                <div class="loading-spinner" id="loadingSpinner">
+                    <i class="fa-solid fa-circle-notch fa-spin"></i> Loading jobs...
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
