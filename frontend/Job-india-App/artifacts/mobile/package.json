@@ -10,7 +10,7 @@
     "web": "expo start --web",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "dev": "EXPO_ROUTER_APP_ROOT=app expo start --web --port 18115",
-    "build": "node scripts/build.js",
+    "build": "expo export",
     "start-web": "expo start --web --port 5000"
   },
   "dependencies": {
