@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "107029667398",
+    "firebase_url": "https://job-india-application-default-rtdb.firebaseio.com",
+    "project_id": "job-india-application",
+    "storage_bucket": "job-india-application.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107029667398:android:3714ebad682a52711b3447",
+        "android_client_info": {
+          "package_name": "com.jobindia.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107029667398-fpu3vlfm162i394h1ph7ff8lqf9ktkqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPcRWIUrghhO-Lvg-biZt55k9L0QZfvsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107029667398-fpu3vlfm162i394h1ph7ff8lqf9ktkqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

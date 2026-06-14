@@ -1,0 +1,5 @@
+packages:
+  - 'artifacts/*'
+allowBuilds:
+  '@firebase/util': true
+  protobufjs: true

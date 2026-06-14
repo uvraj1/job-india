@@ -1,0 +1,21 @@
+# IDEs
+.idea/
+.vscode/
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/venv/
+**/env/
+**/.venv/
+**/*.db
+**/*.log
+
+# Node/PNPM
+**/node_modules/
+**/.pnpm-store/
+**/dist/
+
+# OS/System
+.DS_Store
+Thumbs.db
